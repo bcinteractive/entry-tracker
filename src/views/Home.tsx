@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import EntryScanner from '../components/EntryScanner';
 import { saveEntry, getAllEntries } from '@/core/db/entryDB';
 import { EntrySchema } from '@/types/EntrySchema';
+import EntryAssistant from '../components/EntryAssistant';
 
 export default function Home() {
   const [entries, setEntries] = useState<EntrySchema[]>([]);
@@ -25,6 +26,7 @@ export default function Home() {
     <div className="text-center">
       <h1 className="text-2xl font-bold my-4">Entry Tracker</h1>
       <EntryScanner onScan={handleScan} />
+      <EntryAssistant entries={entries} />
 
       <div className="mt-6">
         <h2 className="text-lg font-semibold mb-2">Entries</h2>

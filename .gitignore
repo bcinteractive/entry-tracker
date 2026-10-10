@@ -56,3 +56,4 @@ Thumbs.db
 
 # pouchdb (optional if storing DB dumps locally)
 *.pouchdb
+*.tsbuildinfo

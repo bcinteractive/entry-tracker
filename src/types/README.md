@@ -66,3 +66,38 @@ npm run build
 ## Preview production build locally:
 npm run preview
 
+📝 Future Roadmap
+
+Milestone 2:
+
+Search & filter entries
+
+Clear/reset button
+
+Generate reports (daily/weekly/monthly charts or tables)
+
+    Export to CSV
+
+Milestone 3+:
+
+Add plugin architecture (e.g., K–12, events)
+
+Camera selection, torch control
+
+UI theme switcher
+
+    PWA / installable mode
+
+🧠 License
+
+MIT — free for personal and commercial use.
+
+🙌 Credits
+
+    html5-qrcode
+
+    PouchDB
+
+    Tailwind CSS
+
+    Vite
